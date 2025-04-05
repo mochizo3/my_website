@@ -5,6 +5,17 @@ body {
     padding: 20px;
   }
   
+  .banner {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
   nav ul {
     list-style-type: none;
     padding: 0;
