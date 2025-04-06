@@ -38,3 +38,13 @@ body {
   nav li a:hover {
     background-color: #ddd;
   }
+
+  @media (max-width: 600px) {
+    nav li {
+      float: none;
+    }
+    
+    nav li a {
+      text-align: left;
+    }
+  }
